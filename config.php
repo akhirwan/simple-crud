@@ -5,7 +5,7 @@
 
 $databaseHost = 'localhost';
 $databaseName = 'crud_db';
-$databaseUsername = 'superadmin';
+$databaseUsername = 'root';
 $databasePassword = 'Admin_123';
 
 $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
